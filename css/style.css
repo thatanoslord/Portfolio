@@ -1,0 +1,49 @@
+:root {
+    --greenishcyan: #12F7D6;
+    --white: white;
+    --bg1: #292F36;
+    --bg2: #1A1E23;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-image: url("../imgs/nav_bg.svg");
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Epilogue", sans-serif;
+    padding: 0 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.link_container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+    font-family: "Epilogue";
+}
