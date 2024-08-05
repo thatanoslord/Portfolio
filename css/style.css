@@ -24,7 +24,7 @@
     position: fixed;
     top: 0;
     left: 0;
-
+    z-index: 1000;
 
 }
 
@@ -67,6 +67,8 @@
 .info {
     display: flex;
     flex-flow: column wrap;
+    position: relative;
+    right: 40px;
 }
 
 .about-container {
