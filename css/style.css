@@ -90,3 +90,15 @@
     font-family: "IBM Plex Mono", monospace;
     font-size: 16px;
 }
+
+.knowledge {
+    background-color: var(--bg2);
+    width: 215px;
+    height: 378px;
+    border-radius: 106px;
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
