@@ -63,3 +63,19 @@
     width: 480px;
     height: 360px;
 }
+
+.about-container {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 64px;
+}
+
+.full-name {
+    color: #12F7D6;
+}
+
+.code {
+    font-size: 18px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    color: var(--greenishcyan);
+    font-weight: 200;
+}
