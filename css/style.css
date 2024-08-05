@@ -93,12 +93,29 @@
 
 .knowledge {
     background-color: var(--bg2);
-    width: 215px;
+    width: 218px;
     height: 378px;
-    border-radius: 106px;
+    border-radius: 80px;
     color: var(--white);
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     text-align: center;
+    padding: 48px 32px;
+}
+
+.knowledge p {
+    height: 62px;
+    width: 154px;
+    font-size: 16px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    display: flex;
+    text-align: left;
+
+}
+
+.numbers {
+    font-size: 52px;
+    font-weight: medium;
+    color: var(--greenishcyan);
 }
