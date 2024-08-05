@@ -111,7 +111,14 @@
     font-family: "IBM Plex Mono", monospace, sans-serif;
     display: flex;
     text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
 
+}
+
+.words {
+    width: 106px;
+    height: 40px;
 }
 
 .numbers {
