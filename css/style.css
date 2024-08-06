@@ -50,10 +50,10 @@
 }
 
 .about {
-    height: 100vh;
+    min-height: 100vh;
     margin-top: 80px;
     display: flex;
-    padding: 20px 30px 0px;
+    padding: 20px 30px 20px;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
@@ -67,7 +67,6 @@
 .info {
     display: flex;
     flex-flow: column wrap;
-    position: relative;
     right: 40px;
 }
 
@@ -127,4 +126,32 @@
     font-size: 52px;
     font-weight: medium;
     color: var(--greenishcyan);
+}
+
+.skills_section {
+    background: url("../imgs/Skills.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 120px 30px 20px;
+
+
+
+}
+
+.mouse {
+    border: #12F7D6 solid 4px;
+    border-radius: 20px;
+    width: 32px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.scroll_button {
+    width: 2.5px;
+    height: 7px;
+    background-color: var(--greenishcyan);
 }
