@@ -209,3 +209,39 @@
     position: relative;
     right: 1px;
 }
+
+.skills_section h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 64px;
+    font-weight: normal;
+    color: var(--greenishcyan);
+    line-height: 72px;
+    margin-bottom: 16px;
+
+}
+
+.skills_line {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.dot {
+    background: var(--greenishcyan);
+    width: 10.5px;
+    height: 10.5px;
+    border-radius: 10.5px;
+}
+
+.hline {
+    width: 148px;
+    height: 2px;
+    background-color: var(--greenishcyan);
+}
+
+.skills_section p {
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-size: 16px;
+    color: var(--white);
+}
