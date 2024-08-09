@@ -301,11 +301,20 @@
     flex-flow: row wrap;
     justify-content: center;
     max-width: 960px;
+    column-gap: 50px;
+    row-gap: 28px;
 }
 
 .lang_icon {
     width: 144px;
     height: 144px;
+    margin-bottom: 24px;
+}
+
+.icon_container {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
 }
 
 .html {
