@@ -241,7 +241,7 @@
     background-color: var(--greenishcyan);
 }
 
-.skills_section p {
+.quote {
     font-family: "IBM Plex Mono", monospace, sans-serif;
     font-size: 16px;
     color: var(--white);
@@ -250,6 +250,7 @@
 
 .rectangle {
     display: flex;
+    margin-bottom: 90px;
 
 }
 
@@ -293,4 +294,44 @@
     color: #43454D;
     font-size: 16px;
     font-weight: 100;
+}
+
+.lang_icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 960px;
+}
+
+.lang_icon {
+    width: 144px;
+    height: 144px;
+}
+
+.html {
+    color: #E54F26;
+    font-size: 32px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-weight: 300;
+}
+
+.css {
+    color: #0C73B8;
+    font-size: 32px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-weight: 300;
+}
+
+.js {
+    color: #E7A020;
+    font-size: 32px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-weight: 300;
+}
+
+.react {
+    color: #28A9E0;
+    font-size: 32px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-weight: 300;
 }
