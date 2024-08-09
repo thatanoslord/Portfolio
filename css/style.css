@@ -355,8 +355,6 @@
     width: 100vw;
     min-height: 100vh;
     background: var(--white);
-    display: flex;
-    justify-content: center;
     padding: 24px;
 }
 
@@ -364,5 +362,30 @@
     color: #2D2D2D;
     font-size: 32px;
     font-family: "Epilogue", sans-serif;
+    margin-bottom: 40px;
+    display: block;
+    width: 100vw;
+    text-align: center;
+}
 
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.project img {
+    margin-bottom: 24px;
+}
+
+.project h3 {
+    font-size: 20px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+}
+
+.project p {
+    font-size: 17;
+    font-weight: 200;
+    font-family: "Epilogue", sans-serif;
 }
