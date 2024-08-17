@@ -354,7 +354,7 @@
     width: 99vw;
     min-height: 100vh;
     background: var(--white);
-    /* padding: 100px 24px 24px; */
+    padding-top: 100px;
 }
 
 
@@ -392,16 +392,12 @@
     font-family: "Epilogue", sans-serif;
 }
 
-/* .navbar,
-.skills_section,
-.latest_work {
-    width: 100%;
-}
+
 
 img {
     max-width: 100%;
     height: auto;
-} */
+}
 
 body {
     overflow-x: hidden;
