@@ -52,8 +52,9 @@
 
 .about {
     min-height: 100vh;
+    margin-top: 80px;
     display: flex;
-    padding: 100px 30px 20px;
+    padding: 20px 30px 20px;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
@@ -130,7 +131,7 @@
 
 .skills_section {
     background: url("../imgs/Skills.png");
-    /* width: 100vw; */
+    width: 100vw;
     min-height: 100vh;
     display: flex;
     padding: 120px 30px 20px;
@@ -351,12 +352,11 @@
 }
 
 .latest_work {
-    width: 99vw;
+    width: 100vw;
     min-height: 100vh;
     background: var(--white);
-    padding-top: 100px;
+    padding: 100px 12px 12px;
 }
-
 
 .latest_work h2 {
     color: #2D2D2D;
@@ -390,13 +390,6 @@
     font-size: 17;
     font-weight: 200;
     font-family: "Epilogue", sans-serif;
-}
-
-
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 body {
