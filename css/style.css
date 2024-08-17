@@ -395,4 +395,8 @@ body {
     background: var(--bg2);
     width: 100%;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    padding-top: 100px;
 }
