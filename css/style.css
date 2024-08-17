@@ -396,4 +396,8 @@ body {
     overflow-x: hidden;
 }
 
-.cont
+.contact {
+    background: var(--bg2);
+    width: 100%;
+    min-height: 100vh;
+}
