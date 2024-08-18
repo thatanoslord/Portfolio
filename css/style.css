@@ -569,13 +569,17 @@ textarea {
 
 footer {
     border-top: 2px solid var(--bg1);
-    height: 48px;
+    min-height: 48px;
     width: 100vw;
     background-color: var(--bg2);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    color: var(--white);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .policy {
@@ -585,9 +589,15 @@ footer {
 }
 
 .policy a {
-    font-size: 16px;
-    font-weight: 200;
-    font-family: "Ubuntu", sans-serif;
     color: var(--white);
     text-decoration: none;
+}
+
+.media {
+    display: flex;
+    gap: 32px;
+}
+
+.name {
+    color: var(--greenishcyan);
 }
