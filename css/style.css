@@ -572,4 +572,22 @@ footer {
     height: 48px;
     width: 100vw;
     background-color: var(--bg2);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.policy {
+    width: 266px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.policy a {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--white);
+    text-decoration: none;
 }
