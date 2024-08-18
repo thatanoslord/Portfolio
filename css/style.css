@@ -428,11 +428,43 @@ body {
     align-items: center;
     border-top-left-radius: 32px;
     border-bottom-right-radius: 32px;
+    margin-bottom: 64px;
 }
 
 .h3_msg {
     color: var(--greenishcyan);
     font-size: 32px;
     font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+.text_email {
+    width: 640px;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_email input {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    border: unset;
+    border-bottom: 1px solid var(--greenishcyan);
+    background: var(--bg2);
+    width: 256px;
+    height: 26px;
+}
+
+::placeholder {
+    color: var(--white);
+    opacity: 1;
+    font-size: 12px;
     font-weight: 300;
 }
