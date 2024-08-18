@@ -441,6 +441,7 @@ body {
 form {
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 .text_email {
@@ -451,7 +452,7 @@ form {
 }
 
 .text_email input {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: var(--white);
@@ -464,7 +465,26 @@ form {
 
 ::placeholder {
     color: var(--white);
-    opacity: 1;
+    opacity: 0.5;
     font-size: 12px;
     font-weight: 300;
+}
+
+textarea {
+    width: 640px;
+    height: 26px;
+    background: var(--bg2);
+    border: unset;
+    border-bottom: 1px solid var(--greenishcyan);
+    margin-bottom: 64px;
+    color: var(--white);
+}
+
+.submit {
+    width: 234px;
+    height: 56px;
+    align-items: center;
+    border: unset;
+    border-radius: 32px;
+    background-color: var(--greenishcyan);
 }
