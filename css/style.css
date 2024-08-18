@@ -418,3 +418,21 @@ body {
     display: contents;
 
 }
+
+.message {
+    border: 2px solid var(--greenishcyan);
+    width: 407px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.h3_msg {
+    color: var(--greenishcyan);
+    font-size: 32px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-weight: 300;
+}
